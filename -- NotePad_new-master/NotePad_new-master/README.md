@@ -75,10 +75,7 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, Time);
 
 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式     values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, df.format(new Date()));
 
-6.在noteslistitem.xml中添加list布局中时间戳的textview：
-
-<TextView
-android:layout_width="match_parent"
+6.在noteslistitem.xml中添加list布局中时间戳的textview：   <TextViewandroid:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:text="2024/11/28 22:22:22"
 android:layout_marginTop="5dp"
@@ -99,11 +96,8 @@ android:textColor="#000000"
 
 
 
-1.添加菜单文件中的搜索图标:
-
-<ImageView
-android:id="@+id/iv_searchnotes"
-android:layout_width="30dp"
+1.添加菜单文件中的搜索图标:  <ImageView android:id="@+id/iv_searchnotes"
+android:layout_width="30dp"   。
 android:layout_height="29dp"
 android:layout_marginLeft="10dp"
 android:layout_marginTop="5dp"
@@ -118,8 +112,7 @@ intent.setClass(NotesList.this,NoteSearch.class);
 NotesList.this.startActivity(intent);
 return true;
 
-<FrameLayout
-android:layout_width="match_parent"
+<FrameLayout, android:layout_width="match_parent" 
 android:layout_weight="1"
 android:orientation="vertical"
 android:layout_height="wrap_content">
@@ -237,7 +230,7 @@ android:orientation="horizontal"
 5.在mainifests注册Search:
 <activity
 <
-category android:name="android.intent.category.SELECTED_ALTERNATIVE" 
+category .   android:name="android.intent.category.SELECTED_ALTERNATIVE" 
 />
 </
 activity>
@@ -258,13 +251,9 @@ activity>
 ![img_18](https://github.com/user-attachments/assets/0909df27-fb56-4dda-a20d-168c669624f5)
 
 
-1.在菜单文件list_options_menu.xml中添加菜单选项:
-
-<item
-android:id="@+id/menu_sort1"
+1.在菜单文件list_options_menu.xml中添加菜单选项: <item .    android:id="@+id/menu_sort1"
 android:title="按创建时间排序"/>
-<item
-android:id="@+id/menu_sort2"
+<item    .   android:id="@+id/menu_sort2"
 android:title="按修改时间排序"/>
 
 2.在NoteList菜单switch下添加case：
@@ -347,9 +336,7 @@ return true;
 ![img_13](https://github.com/user-attachments/assets/7b7e1eac-1eda-4652-a2af-e864727fbfcd)
 
 
-1.在list_options_menu.xml中添加主题背景的菜单选项：
-
-<item android:id="@+id/bg_change"
+1.在list_options_menu.xml中添加主题背景的菜单选项：<item   .   android:id="@+id/bg_change"
    android:title="@string/background"
    />
 
