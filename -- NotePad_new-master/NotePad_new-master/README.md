@@ -14,15 +14,17 @@
 
 二、主界面增加时间戳：
 
-效果如下：
+效果如下：(如果图片加载太慢，建议点击图片链接查看)
+
+![img_2](https://github.com/user-attachments/assets/57ac00cf-da93-4e55-86ae-71495d706bac)
 
 
-![c11f876d6862dd3704aadfd0c3fa87d](https://github.com/user-attachments/assets/98f0e9c5-e57a-49d9-aac0-63fd04d30373)
 
 
 修改Note1后时间戳更新后效果：
 
-![e9f3eee38e29142ec7f1bc0aa5a07a4](https://github.com/user-attachments/assets/34ad889b-67ac-4bb1-9c9a-aec506c784e3)
+![img_3](https://github.com/user-attachments/assets/7b1c78da-32f7-41bf-89c1-e2f4e56c1342)
+
 
 
 
