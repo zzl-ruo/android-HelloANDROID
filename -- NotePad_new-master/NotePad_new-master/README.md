@@ -17,6 +17,8 @@ NotePad
 效果如下：
 
 ![img_2.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_2.png)
+![c11f876d6862dd3704aadfd0c3fa87d](https://github.com/user-attachments/assets/98f0e9c5-e57a-49d9-aac0-63fd04d30373)
+
 
 修改Note1后时间戳更新后效果：
 
