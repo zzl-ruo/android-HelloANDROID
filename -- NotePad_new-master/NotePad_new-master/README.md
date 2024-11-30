@@ -1,4 +1,4 @@
-![e9f3eee38e29142ec7f1bc0aa5a07a4](https://github.com/user-attachments/assets/f15a9b78-baa8-477e-981f-53ac632c88c9)NotePad
+
 
 一、功能扩展如下：
 
@@ -22,7 +22,7 @@
 
 修改Note1后时间戳更新后效果：
 
-![e9f3eee38e29142ec7f1bc0aa5a07a4](https://github.com/user-attachments/assets/6d0682ed-954f-4683-ac4d-45ddfe009804)
+![e9f3eee38e29142ec7f1bc0aa5a07a4](https://github.com/user-attachments/assets/34ad889b-67ac-4bb1-9c9a-aec506c784e3)
 
 
 
@@ -88,15 +88,14 @@ android:textColor="#000000"
 三、笔记搜索
 
 效果：
+![img_3](https://github.com/user-attachments/assets/3f9b9d4e-0bde-4271-9e99-6ec774ed5e14)
+
+![img_5](https://github.com/user-attachments/assets/b74ea685-5445-4c84-afb6-b2fe024217e4)
+
+![img_6](https://github.com/user-attachments/assets/a5149ce2-af5e-421d-b0ce-e6303136affa)
 
 
-![img_3.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_3.png)
 
-
-![img_5.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_5.png)
-
-
-![img_6.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_6.png)
 
 1.添加菜单文件中的搜索图标:
 
@@ -245,15 +244,17 @@ activity>
 
 效果展示：
 
-![img_19.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_19.png)
+![img_19](https://github.com/user-attachments/assets/716aca28-982d-4d7e-b48a-068f4f2a1c97)
+
 
 按创建时间排序:
 
-![img_17.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_17.png)  
+![img_17](https://github.com/user-attachments/assets/f17e72ba-b22f-4a6f-adf1-addcc5db0bfa)
 
 按修改时间排序:
 
-![img_18.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_18.png)
+![img_18](https://github.com/user-attachments/assets/0909df27-fb56-4dda-a20d-168c669624f5)
+
 
 1.在菜单文件list_options_menu.xml中添加菜单选项:
 
@@ -329,19 +330,19 @@ return true;
 
 效果：
 
-![img_7.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_7.png)
+![img_7](https://github.com/user-attachments/assets/275ec380-64a9-419f-ae19-8eda38009adf)
 
-![img_8.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_8.png)
+![img_8](https://github.com/user-attachments/assets/5eabcf65-2e73-4afd-a437-672bb0b82daa)
 
-![img_9.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_9.png)
+![img_9](https://github.com/user-attachments/assets/26e74081-bc9e-4002-9b66-0b4d6c730fc4)
 
-![img_10.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_10.png)
+![img_10](https://github.com/user-attachments/assets/5759d798-0a5b-440f-a768-6f64f6d01b8b)
 
-![img_11.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_11.png)
+![img_11](https://github.com/user-attachments/assets/33c5f117-cb53-46fd-b919-323575d62184)
 
-![img_12.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_12.png)
+![img_12](https://github.com/user-attachments/assets/ebae136e-00a1-42ed-8bb9-f703f896087a)
 
-![img_13.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_13.png)
+![img_13](https://github.com/user-attachments/assets/7b7e1eac-1eda-4652-a2af-e864727fbfcd)
 
 
 1.在list_options_menu.xml中添加主题背景的菜单选项：
