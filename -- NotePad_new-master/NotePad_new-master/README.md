@@ -87,6 +87,7 @@ android:textColor="#000000"
 三、笔记搜索
 
 效果：
+
 ![img_3](https://github.com/user-attachments/assets/3f9b9d4e-0bde-4271-9e99-6ec774ed5e14)
 
 ![img_5](https://github.com/user-attachments/assets/b74ea685-5445-4c84-afb6-b2fe024217e4)
