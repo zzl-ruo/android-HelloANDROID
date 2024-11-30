@@ -1,4 +1,4 @@
-NotePad
+![e9f3eee38e29142ec7f1bc0aa5a07a4](https://github.com/user-attachments/assets/f15a9b78-baa8-477e-981f-53ac632c88c9)NotePad
 
 一、功能扩展如下：
 
@@ -16,13 +16,15 @@ NotePad
 
 效果如下：
 
-![img_2.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_2.png)
+
 ![c11f876d6862dd3704aadfd0c3fa87d](https://github.com/user-attachments/assets/98f0e9c5-e57a-49d9-aac0-63fd04d30373)
 
 
 修改Note1后时间戳更新后效果：
 
-![img_3.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fimg_3.png)
+![e9f3eee38e29142ec7f1bc0aa5a07a4](https://github.com/user-attachments/assets/6d0682ed-954f-4683-ac4d-45ddfe009804)
+
+
 
 1.在NoteList类中PROJECTION方法中定义显示时间戳:
 
