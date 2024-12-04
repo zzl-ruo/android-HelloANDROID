@@ -16,14 +16,16 @@
 
 效果如下：(如果图片加载较慢，建议慢慢等一下就会加载出来)
 
-![img_2](https://github.com/user-attachments/assets/57ac00cf-da93-4e55-86ae-71495d706bac)
+![098d9e6b3b2647edaa60618d86b26d6](https://github.com/user-attachments/assets/ae9d0374-70b9-4d15-b3b9-ae6aa4e22233)
+
 
 
 
 
 修改Note1后时间戳更新后效果：
 
-![img_3](https://github.com/user-attachments/assets/7b1c78da-32f7-41bf-89c1-e2f4e56c1342)
+![57d23a3d2094d3e417427c248ff33ee](https://github.com/user-attachments/assets/2ab83619-d7fb-4b4d-9015-f9ced4d14839)
+
 
 
 
@@ -88,13 +90,16 @@ android:textColor="#000000"
 
 效果：
 
-![img_3](https://github.com/user-attachments/assets/3f9b9d4e-0bde-4271-9e99-6ec774ed5e14)
+![57d23a3d2094d3e417427c248ff33ee](https://github.com/user-attachments/assets/d188c6bb-266b-4780-aec9-f69d1cc369e5)
 
-![img_5](https://github.com/user-attachments/assets/b74ea685-5445-4c84-afb6-b2fe024217e4)
+搜索存在的笔记标题效果：
 
-![img_6](https://github.com/user-attachments/assets/a5149ce2-af5e-421d-b0ce-e6303136affa)
+![b192a648f952b70789f100c70b1c44e](https://github.com/user-attachments/assets/fea5dd4b-b961-4afc-bc2b-d5d39052f69a)
 
 
+搜索不存在的笔记标题效果：
+
+![cdfd6c1d508f4e71a1d8ebb7a5ea095](https://github.com/user-attachments/assets/00255a09-5deb-49ff-812f-6bd3a5db96d5)
 
 
 1.在noteslist_layout.xml中添加搜索功能的图标定义如下:  <ImageView android:id="@+id/iv_searchnotes"
@@ -240,16 +245,18 @@ activity>
 
 效果展示：
 
-![img_19](https://github.com/user-attachments/assets/716aca28-982d-4d7e-b48a-068f4f2a1c97)
+![ad3fd0a73192fbb5df38f50b352faad](https://github.com/user-attachments/assets/1b0e5a0d-c905-4fad-a115-69307ab814ff)
 
 
 按创建时间排序:
 
-![img_17](https://github.com/user-attachments/assets/f17e72ba-b22f-4a6f-adf1-addcc5db0bfa)
+![95fbbde873f5df68f32d74fccf6c200](https://github.com/user-attachments/assets/7588d870-0677-482d-910b-ef1f772c292f)
+
 
 按修改时间排序:
 
-![img_18](https://github.com/user-attachments/assets/0909df27-fb56-4dda-a20d-168c669624f5)
+![26c163fc8d5584ad7a6b9f0211f8950](https://github.com/user-attachments/assets/729dce4c-e991-4415-be99-523f742d32a9)
+
 
 
 1.在菜单文件list_options_menu.xml中添加菜单选项: <item .    android:id="@+id/menu_sort1"
