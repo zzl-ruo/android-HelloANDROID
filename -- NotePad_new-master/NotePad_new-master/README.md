@@ -18,10 +18,6 @@
 
 ![098d9e6b3b2647edaa60618d86b26d6](https://github.com/user-attachments/assets/ae9d0374-70b9-4d15-b3b9-ae6aa4e22233)
 
-
-
-
-
 修改Note1后时间戳更新后效果：
 
 ![57d23a3d2094d3e417427c248ff33ee](https://github.com/user-attachments/assets/2ab83619-d7fb-4b4d-9015-f9ced4d14839)
@@ -329,19 +325,20 @@ return true;
 
 效果：
 
-![img_7](https://github.com/user-attachments/assets/275ec380-64a9-419f-ae19-8eda38009adf)
+![9a8e973ead131e8440decf36d56fe9a](https://github.com/user-attachments/assets/ea92ec3a-1256-4817-aded-462538bd5f24)
 
-![img_8](https://github.com/user-attachments/assets/5eabcf65-2e73-4afd-a437-672bb0b82daa)
+![754b15567a410065cf756beddd9f36f](https://github.com/user-attachments/assets/7d33d808-2eaa-4992-860c-8a8228790684)
 
-![img_9](https://github.com/user-attachments/assets/26e74081-bc9e-4002-9b66-0b4d6c730fc4)
+![656a8e0d917373aea09cee25efd7b7a](https://github.com/user-attachments/assets/1b75afe4-55c0-47ae-a139-fe4f46ce4715)
 
-![img_10](https://github.com/user-attachments/assets/5759d798-0a5b-440f-a768-6f64f6d01b8b)
+![8b47606ab715f580a10744ecf074635](https://github.com/user-attachments/assets/d589112a-ff21-498a-b1ed-53d35b78166e)
 
-![img_11](https://github.com/user-attachments/assets/33c5f117-cb53-46fd-b919-323575d62184)
+![713805c799f265b9de8dd6236a51f64](https://github.com/user-attachments/assets/51dd2763-e29b-404e-b07f-f3e877dd914b)
 
-![img_12](https://github.com/user-attachments/assets/ebae136e-00a1-42ed-8bb9-f703f896087a)
+![170d0b731b0d47d673fc012789c116c](https://github.com/user-attachments/assets/477a0e8a-9a05-4d6f-8583-36816a6ba5ee)
 
-![img_13](https://github.com/user-attachments/assets/7b7e1eac-1eda-4652-a2af-e864727fbfcd)
+![66c25c20c241a559a4976086e929931](https://github.com/user-attachments/assets/9922b1b6-49ce-4edc-b68d-7d8a4a8aff3a)
+
 
 
 1.在list_options_menu.xml中添加主题背景的菜单选项：<item   .   android:id="@+id/bg_change"
