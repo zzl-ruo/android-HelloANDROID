@@ -28,7 +28,7 @@
 
 
 
-1.在NoteList类中PROJECTION方法中定义显示时间戳:
+1.在NoteList类的PROJECTION方法中定义时间戳的显示功能如下:
 
 private static final String[] PROJECTION = new String[] {
 NotePad.Notes._ID, // 0
@@ -37,7 +37,7 @@ NotePad.Notes.COLUMN_NAME_CREATE_DATE,//2
 NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE//3
 };
 
-2.新建DateUtil.java并写一个StringToDate方法定义字符串转换日期格式：
+2.新建DateUtil.java并编写一个StringToDate方法定义字符串转换日期格式：
 
 public static String StringToDate(String str_data)
 {
@@ -47,13 +47,13 @@ String sd = sdf.format(new Date(Long.parseLong(beginDate)));
 return  sd;
 }
 
-3.在NoteList类的dataColumns，viewIDs中加入时间戳的相关部分:时间戳的数据和viewId:
+3.在NoteList类的dataColumns数组和viewIDs数组中加入时间戳的数据和view的Id如下:
 
 private String[] dataColumns = { NotePad.Notes.COLUMN_NAME_TITLE ,
 NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE } ;
 private int[] viewIDs = { android.R.id.text1 , R.id.time };
 
-4.在NotePadeProvider中insert中对日期进行格式转换:
+4.在NotePadeProvider.java 的insert方法中加入对日期的格式转换如下:
 
 //获取当前系统时间
 Long nowtime = Long.valueOf(System.currentTimeMillis());
@@ -71,11 +71,11 @@ if (values.containsKey(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE) == false) {
 values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, Time);
 }
 
-5.在NodeEditor的updateNote方法中转换日期格式:
+5.在NodeEditor的updateNote方法中转换日期格式如下:
 
 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式     values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, df.format(new Date()));
 
-6.在noteslistitem.xml中添加list布局中时间戳的textview：   <TextViewandroid:layout_width="match_parent"
+6.在noteslistitem.xml文件添加list布局中时间戳的textview如下：   <TextViewandroid:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:text="2024/11/28 22:22:22"
 android:layout_marginTop="5dp"
@@ -97,7 +97,7 @@ android:textColor="#000000"
 
 
 
-1.添加菜单文件中的搜索图标:  <ImageView android:id="@+id/iv_searchnotes"
+1.在noteslist_layout.xml中添加搜索功能的图标定义如下:  <ImageView android:id="@+id/iv_searchnotes"
 android:layout_width="30dp"   。
 android:layout_height="29dp"
 android:layout_marginLeft="10dp"
@@ -105,7 +105,7 @@ android:layout_marginTop="5dp"
 android:layout_marginRight="10dp"
 android:background="@drawable/search1" />
 
-2.在NoteLIst类中的onOptionsItemSelected方法添加case情况:
+2.在NoteLIst类的onOptionsItemSelected方法中添加可能的几种情况搜索情况:
 
 case R.id.menu_search:
 Intent intent = new Intent();
@@ -125,7 +125,7 @@ android:divider="#FFFFCC"
 android:dividerHeight="0dp"
 android:id="@id/android:list"
 
-3.在布局文件noteslist_layout.xml中新建搜素框和列表的view
+3.在布局文件noteslist_layout.xml中新建搜素框和列表的view布局
 
 <LinearLayout
 android:layout_width="match_parent"
@@ -199,7 +199,7 @@ android:orientation="horizontal"
 
 </LinearLayout>
 
-4.使用TextWatcher实现textview输入监听，使用数据库语句like实现模糊查找
+4.使用TextWatcher实现textview输入监听，使用数据库语句like实现模糊查找：
 
        private void addSearchView() {
            //给listview添加头部(search)
@@ -228,7 +228,7 @@ android:orientation="horizontal"
            }
        }
 
-5.在mainifests注册Search:
+5.在mainifests.xml文件中注册Search功能:
 <activity
 <
 category .   android:name="android.intent.category.SELECTED_ALTERNATIVE" 
@@ -257,9 +257,9 @@ android:title="按创建时间排序"/>
 <item    .   android:id="@+id/menu_sort2"
 android:title="按修改时间排序"/>
 
-2.在NoteList菜单switch下添加case：
+2.在NoteList.java中添加三种可能的排序方式的情况：
 
-//创建时间排序
+//按照创建时间排序
 case R.id.menu_sort1:
 cursor = managedQuery(
 getIntent().getData(),            
@@ -277,7 +277,7 @@ viewIDs
 );
 setListAdapter(adapter);
 return true;
-//修改时间排序
+//按照修改时间排序
 case R.id.menu_sort2:
 cursor = managedQuery(
 getIntent().getData(),          
@@ -295,7 +295,7 @@ viewIDs
 );
 setListAdapter(adapter);
 return true;
-//颜色排序
+//按照颜色排序
 case R.id.menu_sort3:
 cursor = managedQuery(
 getIntent().getData(),
